@@ -1,4 +1,4 @@
-import { randomUUID } from "crypto";
+import crypto from "crypto";
 
 export type ProductProps = {
     id: string;
