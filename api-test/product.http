@@ -1,0 +1,22 @@
+###
+GET http://localhost:8000/products
+
+###
+
+POST http://localhost:8000/products
+Content-Type: application/json
+
+{
+    "name" :"Node Express",
+    "price": 999.99
+}
+
+###
+
+POST http://localhost:8000/products
+Content-Type: application/json
+
+{
+    "name" :"Express Node",
+    "price": 109.00
+}
